@@ -3,12 +3,17 @@
     "typescript": "^5.1.6"
   },
   "name": "expo-secure-store-chunked",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Store longer secure content in your Expo app. An extension to expo-secure-store.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
-  "files": ["dist", "LICENSE.txt", "README.md", "package.json"],
+  "files": [
+    "dist",
+    "LICENSE.txt",
+    "README.md",
+    "package.json"
+  ],
   "scripts": {
     "build": "npx tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
