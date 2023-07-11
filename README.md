@@ -3,7 +3,7 @@ Store longer secure content by chunking it into smaller parts.
 
 ### Installation
 ```properties
-npx expo install expo-secure-store
+npx expo install expo-secure-store-chunked
 ````
 
 ### Usage
