@@ -3,7 +3,7 @@
     "typescript": "^5.1.6"
   },
   "name": "expo-secure-store-chunked",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Store longer secure content in your Expo app. An extension to expo-secure-store.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
