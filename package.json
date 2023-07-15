@@ -1,9 +1,6 @@
 {
-  "devDependencies": {
-    "typescript": "^5.1.6"
-  },
   "name": "expo-secure-store-chunked",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Store longer secure content in your Expo app. An extension to expo-secure-store.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -31,7 +28,10 @@
     "url": "https://github.com/FKLC/expo-secure-store-chunked/issues"
   },
   "homepage": "https://github.com/FKLC/expo-secure-store-chunked#readme",
-  "dependencies": {
-    "expo-secure-store": "^12.3.1"
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "peerDependencies": {
+    "expo-secure-store": "12.x"
   }
 }
