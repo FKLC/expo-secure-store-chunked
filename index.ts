@@ -20,7 +20,7 @@ async function getItem(key: string, options?: SecureStoreOptions) {
 
   return await Promise.all(range(len).map(i =>
     getItemAsync(key + i, options)
-  )).then(r => r.join("") || "null");
+  )).then(r => r.join("") || null);
 }
 
 async function removeItem(key: string, options?: SecureStoreOptions) {

@@ -1,6 +1,6 @@
 {
   "name": "expo-secure-store-chunked",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Store longer secure content in your Expo app. An extension to expo-secure-store.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -32,6 +32,6 @@
     "typescript": "^5.1.6"
   },
   "peerDependencies": {
-    "expo-secure-store": "12.x"
+    "expo-secure-store": "13.x"
   }
 }
